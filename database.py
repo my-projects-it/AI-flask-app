@@ -10,14 +10,19 @@
 # In[10]:
 
 
+import os
 import mysql.connector
 
 def connect_db():
-    # Step 1: Connect to MySQL without specifying a database
+    
     c = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="Bj2003@27"
+    host=os.getenv("bnzaupzpdfrwncuael3m-mysql.services.clever-cloud.com"),
+    port=os.getenv("3306"),
+    user=os.getenv("uwr0cftsf6pb8a5q"),
+    password=os.getenv("JlaFlg6E4keN5rlfCQph"),
+    database=os.getenv("bnzaupzpdfrwncuael3m")
+)
+
     )
     
     cursor = c.cursor()
