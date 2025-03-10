@@ -36,7 +36,7 @@ def recommend():
     return jsonify({"status": "trained"})
 
 if __name__ == '__main__':
-    # ✅ Clever Cloud ke liye sahi Flask server setup
+    
     app.run(host='0.0.0.0', port=8080)
 
 
