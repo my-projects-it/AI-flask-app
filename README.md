@@ -14,4 +14,4 @@ You can deploy this project on **HugginFace** using the **Docfile** included.
 ## 📜 License  
 This project is licensed under the **Apache-2.0** License.  
 
-💡 *Feel free to fork, star ⭐, and contribute to this project!*  
+## https://huggingface.co/spaces/barkha2/AI-app
